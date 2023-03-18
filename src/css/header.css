@@ -1,0 +1,77 @@
+/* -------------H E A D E R---L O G O ------------------ */
+.header-logo {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.03em;
+}
+
+.header-logo-simply {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.03em;
+}
+
+/* ------------H E A D E R --P A G E------ */
+
+.header-page {
+  position: relative;
+
+  background-color: blanchedalmond;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
+.header-menu-container {
+  display: none;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+
+  background-color: aquamarine;
+}
+.header-menu-container.is-open {
+  display: block;
+}
+
+.header-menu-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  line-height: 0;
+}
+.hamburger-icon {
+  width: 21px;
+  height: 14px;
+}
+.cross-header-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.header-menu-btn.is-open {
+  margin-bottom: 88px;
+}
+
+.header-menu-btn .cross-header-icon {
+  display: none;
+}
+
+.header-menu-btn.is-open .cross-header-icon {
+  display: block;
+}
+.header-menu-btn.is-open .hamburger-icon {
+  display: none;
+}

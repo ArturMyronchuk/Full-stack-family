@@ -1,26 +1,51 @@
-<header background>
-  <nav>
-    <a href="#"><span>SIMPLY</span> CHOCOLATE</a>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">How it’s made?</a></li>
-      <li><a href="#">Our products</a></li>
-      <li><a href="#">Top sellers</a></li>
-      <li><a href="#">Chocolate is loved</a></li>
-    </ul>
-    <ul>
-      <li>
-        <a href="#" target="_blank" rel="noopener noreferrer nofollow">
-          <svg width="22" height="22">
-            <use href="../img/icon/instagram.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li>
-        <a href="#" target="_blank" rel="noopener noreferrer nofollow">
-          <svg></svg>
-        </a>
-      </li>
-    </ul>
-  </nav>
+<header>
+  <div class="header-page">
+    <div class="container header-container">
+      <a href="./index.html" class="header-logo link"
+        ><span class="header-logo-simply">SIMPLY&nbsp;</span>CHOCOLATE</a
+      >
+      <button
+        type="button"
+        class="header-menu-btn"
+        aria-expanded="false"
+        aria-controls="menu-container"
+        data-menu-button
+      >
+        <svg width="21" height="14">
+          <use class="hamburger-icon" href="../img/icons.svg#hamburger"></use>
+          <use
+            class="cross-header-icon"
+            href="../img/icons.svg#icon-header-btn-close"
+          ></use>
+        </svg>
+      </button>
+      <nav>
+        <div class="header-menu-container" id="menu-container" data-menu>
+          <ul class="header-navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How it’s made?</a></li>
+            <li><a href="#">Our products</a></li>
+            <li><a href="#">Top sellers</a></li>
+            <li><a href="#">Chocolate is loved</a></li>
+          </ul>
+          <ul class="header-socials">
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+                <svg width="22" height="22">
+                  <use href="../img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+                <svg width="20" height="20">
+                  <use href="../img/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
 </header>
