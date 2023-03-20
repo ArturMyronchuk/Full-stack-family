@@ -1,51 +1,111 @@
-<header>
-  <div class="header-page">
-    <div class="container header-container">
+<header class="header-page">
+  <div class="container header-container">
+    <nav class="header-navigation">
       <a href="./index.html" class="header-logo link"
-        ><span class="header-logo-simply">SIMPLY&nbsp;</span>CHOCOLATE</a
-      >
+        ><span class="header-logo-simply">SIMPLY&nbsp;</span>CHOCOLATE<svg
+          class="chocolate-icon"
+        >
+          <use href="../img/icons.svg#icon-chocolate-icon"></use>
+        </svg>
+      </a>
+      <ul class="header-nav-list">
+        <li class="header-navigation-item">
+          <a href="#" class="header-navigation-link">Home</a>
+        </li>
+        <li class="header-navigation-item">
+          <a href="#" class="header-navigation-link">How it’s made?</a>
+        </li>
+        <li class="header-navigation-item">
+          <a href="#" class="header-navigation-link">Our products</a>
+        </li>
+        <li class="header-navigation-item">
+          <a href="#" class="header-navigation-link">Top sellers</a>
+        </li>
+        <li class="header-navigation-item">
+          <a href="#" class="header-navigation-link">Chocolate is loved</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="header-socials">
+      <li class="header-socials-item">
+        <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+          <svg width="22" height="22" class="header-soc-svg">
+            <use href="../img/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-socials-item">
+        <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+          <svg width="20" height="20" class="header-soc-svg">
+            <use href="../img/icons.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <!-- MOBILE M E N U -->
+    <button
+      type="button"
+      class="header-menu-btn js-open-menu"
+      aria-expanded="false"
+      aria-controls="menu-container"
+    >
+      <svg width="21" height="14">
+        <use
+          class="hamburger-icon"
+          href="../img/icons.svg#icon-burger-menu"
+        ></use>
+      </svg>
+    </button>
+  </div>
+  <div class="header-burger-menu js-menu-container" id="menu-container">
+    <div class="container">
       <button
         type="button"
-        class="header-menu-btn"
+        class="burger-menu-close js-close-menu"
         aria-expanded="false"
         aria-controls="menu-container"
         data-menu-button
       >
-        <svg width="21" height="14">
-          <use class="hamburger-icon" href="../img/icons.svg#hamburger"></use>
+        <svg width="28" height="28">
           <use
             class="cross-header-icon"
-            href="../img/icons.svg#icon-header-btn-close"
+            href="../img/icons.svg#icon-close-icon"
           ></use>
         </svg>
       </button>
-      <nav>
-        <div class="header-menu-container" id="menu-container" data-menu>
-          <ul class="header-navigation">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">How it’s made?</a></li>
-            <li><a href="#">Our products</a></li>
-            <li><a href="#">Top sellers</a></li>
-            <li><a href="#">Chocolate is loved</a></li>
-          </ul>
-          <ul class="header-socials">
-            <li>
-              <a href="#" target="_blank" rel="noopener noreferrer nofollow">
-                <svg width="22" height="22">
-                  <use href="../img/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" rel="noopener noreferrer nofollow">
-                <svg width="20" height="20">
-                  <use href="../img/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <ul class="mob-burger-list">
+        <li class="mob-burger-item">
+          <a href="#" class="mob-burger-link">Home</a>
+        </li>
+        <li class="mob-burger-item">
+          <a href="#" class="mob-burger-link">How it’s made?</a>
+        </li>
+        <li class="mob-burger-item">
+          <a href="#" class="mob-burger-link">Our products</a>
+        </li>
+        <li class="mob-burger-item">
+          <a href="#" class="mob-burger-link">Top sellers</a>
+        </li>
+        <li class="mob-burger-item">
+          <a href="#" class="mob-burger-link">Chocolate is loved</a>
+        </li>
+      </ul>
+      <ul class="mob-burger-socials">
+        <li class="mob-burger-item">
+          <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+            <svg width="22" height="22" class="header-soc-svg">
+              <use href="../img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-burger-item">
+          <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+            <svg width="20" height="20" class="header-soc-svg">
+              <use href="../img/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </header>
